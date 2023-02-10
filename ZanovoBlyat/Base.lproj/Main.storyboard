@@ -22,16 +22,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ins-Mr-9Ih">
-                                <rect key="frame" x="95" y="626" width="200" height="41"/>
+                                <rect key="frame" x="95" y="632.66666666666663" width="200" height="34.333333333333371"/>
                                 <color key="backgroundColor" red="0.99951588629999999" green="0.75082412409999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="N7m-Dj-Kra"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Show greeting">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
+                                <state key="normal" title="Show greeting"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Show greeting">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="greetingButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="H05-XB-Jmg"/>
                                 </connections>
